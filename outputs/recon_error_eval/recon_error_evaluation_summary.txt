@@ -1,0 +1,41 @@
+============================================================
+RECONSTRUCTION ERROR EVALUATION SUMMARY
+============================================================
+
+1️⃣ AUC METRICS
+------------------------------------------------------------
+Normal-only Model:
+  ROC-AUC: 0.8524
+  PR-AUC:  0.8629
+
+Mixed Model:
+  ROC-AUC: 0.8238
+  PR-AUC:  0.8399
+
+2️⃣ STATISTICAL SIGNIFICANCE (Mann-Whitney U Test)
+------------------------------------------------------------
+Normal-only Model:
+  U-statistic: 179.00
+  p-value (one-sided): 0.000669
+  p-value (two-sided): 0.001338
+  Significant (one-sided, α=0.05): True
+  TTS mean: 0.003648, Normal mean: 0.001962
+
+Mixed Model:
+  U-statistic: 173.00
+  p-value (one-sided): 0.001610
+  p-value (two-sided): 0.003220
+  Significant (one-sided, α=0.05): True
+  TTS mean: 0.002430, Normal mean: 0.001319
+
+3️⃣ BOOTSTRAP CONFIDENCE INTERVALS (2000 iterations)
+------------------------------------------------------------
+Normal-only Model:
+  ROC-AUC: 0.8490 (95% CI: [0.6762, 0.9685])
+  PR-AUC:  0.8615 (95% CI: [0.6770, 0.9766])
+  TTS/Normal Ratio: 1.881 (95% CI: [1.340, 2.586])
+
+Mixed Model:
+  ROC-AUC: 0.8221 (95% CI: [0.6364, 0.9510])
+  PR-AUC:  0.8418 (95% CI: [0.6452, 0.9650])
+  TTS/Normal Ratio: 1.873 (95% CI: [1.311, 2.633])

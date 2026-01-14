@@ -1,0 +1,30 @@
+[
+  {
+    "timestamp": "2026-01-13T14:18:09.997450",
+    "split": "val",
+    "model_type": "FM",
+    "params": {
+      "K": 10,
+      "t_range": [
+        0.0,
+        1.0
+      ],
+      "seed": 42
+    },
+    "seed": 42
+  },
+  {
+    "timestamp": "2026-01-13T14:18:09.999160",
+    "split": "test",
+    "model_type": "FM",
+    "params": {
+      "K": 10,
+      "t_range": [
+        0.0,
+        1.0
+      ],
+      "seed": 42
+    },
+    "seed": 42
+  }
+]

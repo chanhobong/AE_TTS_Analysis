@@ -1,0 +1,3 @@
+2026-01-13 14:18:09,997 - INFO - [val] FM scoring params: {'K': 10, 't_range': [0.0, 1.0], 'seed': 42}, seed=42
+2026-01-13 14:18:09,999 - INFO - [test] FM scoring params: {'K': 10, 't_range': [0.0, 1.0], 'seed': 42}, seed=42
+2026-01-13 14:18:47,881 - INFO - ✅ Saved scoring logs to /mnt/iusers01/eee01/g09698cb/scratch/AE_TTS/outputs/robust_fm_eval/scoring_log.json

@@ -1,0 +1,30 @@
+============================================================
+NORMAL-ONLY vs MIXED AE COMPARISON
+============================================================
+
+Normal-only Model:
+  (Trained on Normal data only - cannot use linear probe)
+  TTS recon error:    0.003648 ± 0.001314
+  Normal recon error: 0.001962 ± 0.000939
+  Ratio (TTS/Normal): 1.859
+
+Mixed Model:
+  Val AUC:  0.8692 (best C: 100.0)
+  Test AUC: 0.7429
+  Test Acc: 0.6552
+  Test F1:  0.6875
+  TTS recon error:    0.002430 ± 0.000948
+  Normal recon error: 0.001319 ± 0.000650
+  Ratio (TTS/Normal): 1.843
+
+============================================================
+COMPARISON SUMMARY
+============================================================
+Normal-only TTS/Normal ratio: 1.859
+Mixed TTS/Normal ratio:        1.843
+✅ Normal-only model makes TTS stand out MORE (ratio difference: 0.017)
+   → Supports the hypothesis: Normal-only training is better for anomaly detection!
+
+KEY QUESTION:
+Does Normal-only training make TTS stand out more?
+(Higher TTS/Normal error ratio = better anomaly detection)

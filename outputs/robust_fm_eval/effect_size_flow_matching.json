@@ -1,0 +1,14 @@
+{
+  "model": "Flow Matching",
+  "n_normal": 14,
+  "n_tts": 15,
+  "normal_mean": 1.1514256766864233,
+  "normal_std": 0.058141431086395384,
+  "tts_mean": 1.295534078280131,
+  "tts_std": 0.10693886453218243,
+  "cohens_d": 1.60060160434303,
+  "cliffs_delta": 0.8571428571428571,
+  "mannwhitney_statistic": 195.0,
+  "mannwhitney_p_value": 4.689880810780879e-05,
+  "significant": true
+}

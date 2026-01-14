@@ -1,0 +1,44 @@
+============================================================
+COMPREHENSIVE ANOMALY DETECTION EVALUATION
+============================================================
+
+AE_Normal-only:
+  Params: {}
+  Val ROC-AUC: 0.7692
+  Test ROC-AUC: 0.8333
+  Test ROC-AUC CI (95%): [0.6490, 0.9571]
+  Test PR-AUC: 0.8470
+  Test PR-AUC CI (95%): [0.6592, 0.9661]
+  Mann-Whitney U p-value: 0.001210
+  Significant (α=0.05): True
+
+AE_Mixed:
+  Params: {}
+  Val ROC-AUC: 0.7538
+  Test ROC-AUC: 0.8238
+  Test ROC-AUC CI (95%): [0.6364, 0.9510]
+  Test PR-AUC: 0.8399
+  Test PR-AUC CI (95%): [0.6452, 0.9650]
+  Mann-Whitney U p-value: 0.001610
+  Significant (α=0.05): True
+
+DDPM:
+  Params: {'t_small': 100, 'K': 20}
+  Val ROC-AUC: 0.7538
+  Test ROC-AUC: 0.7476
+  Test ROC-AUC CI (95%): [0.5381, 0.9107]
+  Test PR-AUC: 0.7949
+  Test PR-AUC CI (95%): [0.5903, 0.9390]
+  Mann-Whitney U p-value: 0.012299
+  Significant (α=0.05): True
+
+Flow-Matching:
+  Params: {'K': 20, 't_range': None}
+  Val ROC-AUC: 0.6769
+  Test ROC-AUC: 0.9238
+  Test ROC-AUC CI (95%): [0.8221, 0.9952]
+  Test PR-AUC: 0.9375
+  Test PR-AUC CI (95%): [0.8329, 0.9971]
+  Mann-Whitney U p-value: 0.000056
+  Significant (α=0.05): True
+

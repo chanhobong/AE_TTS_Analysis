@@ -1,0 +1,26 @@
+{
+  "score_vs_age": {
+    "correlation": 0.14781024696550288,
+    "p_value": 0.4441601645232278
+  },
+  "score_vs_sex": {
+    "correlation": 0.02706659809803833,
+    "p_value": 0.8891563208484125
+  },
+  "score_vs_label": {
+    "correlation": 0.7423074889580903,
+    "p_value": 4.029207180311771e-06
+  },
+  "tts_stats": {
+    "n": 15,
+    "age_mean": 75.06666666666666,
+    "age_std": 9.61572785712149,
+    "sex_mean": 0.0
+  },
+  "normal_stats": {
+    "n": 14,
+    "age_mean": 64.0,
+    "age_std": 19.198214202665532,
+    "sex_mean": 0.21428571428571427
+  }
+}
