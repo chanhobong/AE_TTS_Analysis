@@ -1,0 +1,48 @@
+============================================================
+LV/RV REGION-SPECIFIC ERROR ANALYSIS SUMMARY
+============================================================
+
+AUC METRICS
+------------------------------------------------------------
+LV Only:
+  ROC-AUC: 0.8476
+  PR-AUC:  0.8635
+
+RV Only:
+  ROC-AUC: 0.8476
+  PR-AUC:  0.8772
+
+Myocardium Only:
+  ROC-AUC: 0.8905
+  PR-AUC:  0.9084
+
+Combined (LV + RV):
+  ROC-AUC: 0.8619
+  PR-AUC:  0.8852
+
+Ratio (LV / RV):
+  ROC-AUC: 0.5048
+  PR-AUC:  0.5951
+
+STATISTICAL TESTS (Mann-Whitney U)
+------------------------------------------------------------
+LV Scores:
+  Normal: mean=0.000476, median=0.000343
+  TTS:    mean=0.001493, median=0.001036
+  U-statistic: 178.00
+  p-value: 0.001555
+  Significant (α=0.05): True
+
+RV Scores:
+  Normal: mean=0.000462, median=0.000355
+  TTS:    mean=0.001916, median=0.001192
+  U-statistic: 178.00
+  p-value: 0.001555
+  Significant (α=0.05): True
+
+Myocardium Scores:
+  Normal: mean=0.000460, median=0.000362
+  TTS:    mean=0.001546, median=0.001165
+  U-statistic: 187.00
+  p-value: 0.000375
+  Significant (α=0.05): True
