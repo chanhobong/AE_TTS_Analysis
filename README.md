@@ -17,11 +17,15 @@ Our model demonstrates high diagnostic accuracy and aligns with clinical patholo
 
 ### 1. ROC Curve Comparison
 The ROC curve demonstrates that the **Myocardium** region provides the strongest signal for differentiating TTS from healthy controls compared to the LV or RV cavities alone.
-<img src="https://raw.githubusercontent.com/chanhobong/AE_TTS_Analysis/main/outputs/lv_rv_analysis/myocardium_boxplot.png" width="500">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/chanhobong/AE_TTS_Analysis/main/outputs/lv_rv_analysis/myocardium_boxplot.png" width="500">
+</p>
 
 ### 2. Region-Specific Error Distribution
 The boxplot illustrates a clear, statistically significant separation ($p < 0.001$) in reconstruction error scores within the myocardial region between the two groups.
-<img src="https://raw.githubusercontent.com/chanhobong/AE_TTS_Analysis/main/outputs/lv_rv_analysis/roc_curves_comparison.png" width="400">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/chanhobong/AE_TTS_Analysis/main/outputs/lv_rv_analysis/roc_curves_comparison.png" width="400">
+</p>
 
 ## 📂 Project Structure
 * `utils/analyze_lv_rv_error_scores.py`: Core script for region-specific error quantification and statistical testing.
